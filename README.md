@@ -2,6 +2,10 @@
 ```bash
 opam install -y js_of_ocaml-compiler
 ```
+### BUILD
+```bash
+dune build
+```
 ### RUN
 ```bash
 $ node _build/default/main.bc.js    #atau bisa juga: dune exec ./main.bc-for-jsoo
